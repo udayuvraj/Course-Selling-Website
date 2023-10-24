@@ -57,7 +57,7 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
                     Name your Course 
                 </h1>
                 <p className="text-sm text-slate-600">
-                    What would you like yo name your course? Don't worry, you can change this later.
+                    What would you like yo name your course? Don&apos;t worry, you can change this later.
                 </p>
                 <Form  {...form}>
                     <form onSubmit={form.handleSubmit(onSubmit)}
@@ -107,5 +107,4 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
         </div>
     );
 }
-/* */
 export default CreatePage;
